@@ -32,9 +32,6 @@ password = 'admin'
 verbose = '0';
 
 
-
-myList = [22,4,16,38,13] #myList already has 5 elements
-
 def api_authenticate(verbose):
     data = {'jsonrpc': "2.0" ,'id': 4, 'params': { 'username': username,'password': password }}
     headers = {'Content-type': 'application/json'}
